@@ -26,7 +26,7 @@ public class WeatherResponse implements Supplier<SpeechletResponse> {
     @Override
     public SpeechletResponse get() {
         final Map<String, Object> result =
-                new WeatherTask("75093,us").get();
+                new WeatherTask("98106,us").get();
 
         final StringBuilder out = new StringBuilder();
         out.append("The temperature is ");
